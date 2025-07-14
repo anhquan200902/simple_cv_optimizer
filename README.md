@@ -46,7 +46,7 @@ To switch between the Google Gemini and OpenAI models, you can edit the `main.py
 
 - **For Google Gemini (default):**
   ```python
-  MODEL = "gemini-1.5-flash"
+  MODEL = "gemini-2.5-flash"
   ```
 
 - **For OpenAI:**
