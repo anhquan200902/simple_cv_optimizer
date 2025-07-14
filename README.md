@@ -66,3 +66,17 @@ To switch between the Google Gemini and OpenAI models, you can edit the `main.py
   # openai.api_key = os.getenv("OPENAI_API_KEY")
   # MODEL = "gpt-4o-mini" # You can change this to "gpt-4" if you have access
   ```
+  - Also comment out the Gemini API call and uncomment the OpenAI API call:
+  ```python
+    # try:
+    #     response = openai.chat.completions.create(
+    #         model=MODEL,
+    #         messages=[
+    #             {"role": "system", "content": "You are a helpful assistant that optimizes CVs."},
+    #             {"role": "user", "content": prompt}
+    #         ]
+    #     )
+    #     return response.choices[0].message.content
+    # except Exception as e:
+    #     return f"An error occurred with the OpenAI API: {e}"
+  ```
