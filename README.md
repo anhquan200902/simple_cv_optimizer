@@ -4,12 +4,18 @@ This project optimizes a CV based on a job description using Large Language Mode
 
 ## Setup
 
-1. **Install dependencies:**
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/anhquan200902/simple_resume_optimizer.git
+   cd simple_resume_optimizer
+   ```
+
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Set up your environment variables:**
+3. **Set up your environment variables:**
    - Create a `.env` file in the root directory.
    - Add your Google API key to the `.env` file:
      ```
@@ -20,7 +26,7 @@ This project optimizes a CV based on a job description using Large Language Mode
      OPENAI_API_KEY=your_api_key_here
      ```
 
-3. **Add your CV and job description:**
+4. **Add your CV and job description:**
    - Place your CV (in PDF format) in the root directory. The script will automatically find the first PDF file.
    - Add the job description to `job_description.txt`.
 
