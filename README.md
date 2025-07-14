@@ -6,7 +6,7 @@ This project optimizes a CV based on a job description using Large Language Mode
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/anhquan200902/simple_resume_optimizer.git
+   git clone https://github.com/anhquan200902/simple_cv_optimizer.git
    cd simple_resume_optimizer
    ```
 
