@@ -32,13 +32,23 @@ This project optimizes a CV based on a job description using Large Language Mode
 
 ## Usage
 
-Run the `main.py` script to generate an optimized version of your CV:
+First, run the `main.py` script to generate an optimized version of your CV:
 
 ```bash
 python main.py
 ```
 
 The optimized CV will be saved in `optimized_cv.txt`.
+
+### Translating the CV
+
+To translate the optimized CV to English, run the `translate.py` script:
+
+```bash
+python translate.py
+```
+
+The translated CV will be saved in `translated_cv.txt`.
 
 ## Configuration
 

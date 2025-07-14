@@ -49,7 +49,7 @@ def read_pdf(file_path):
 def read_txt(file_path):
     """Reads the content from a text file."""
     try:
-        with open(file_path, "r") as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             return f.read()
     except FileNotFoundError:
         return f"Error: The file '{file_path}' was not found."
@@ -65,7 +65,7 @@ def optimize_cv(cv_content, job_description):
 
     prompt = f"""
     Here is a CV and a job description.
-    Please optimize the CV to be more compliant with Applicant Tracking Systems (ATS) and tailor its content to the provided job description. The writing style should be as close to the original CV as possible.
+    Please optimize the CV to be more compliant with Applicant Tracking Systems (ATS) and tailor its content to the provided job description. The writing style should be as close to the original CV as possible. Use the same language as the original CV.
     The output should be a text file that I can use to make manual adjustments.
 
     CV:
@@ -101,7 +101,7 @@ def optimize_cv(cv_content, job_description):
 def save_to_txt(content, file_path):
     """Saves the given content to a text file."""
     try:
-        with open(file_path, "w") as f:
+        with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)
         return f"Successfully saved the optimized CV to '{file_path}'"
     except Exception as e:

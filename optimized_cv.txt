@@ -1,51 +1,50 @@
-Dang Hoang Anh Quan
-Nam Tu Liem, Hanoi, Vietnam
+Đặng Hoàng Anh Quân
+Nam Từ Liêm, Hà Nội
 0868 200 902
 anhquan200989@gmail.com
 https://www.linkedin.com/in/quandh2009/
 
-Summary
-Highly motivated AI Engineer with over 1.5 years of hands-on experience in developing and optimizing AI models for text, audio, and image processing. Proficient in leveraging TensorFlow, PyTorch, and Keras to build scalable and efficient AI systems. Possesses a proven track record of contributing to and driving successful AI initiatives across the end-to-end model lifecycle, from data preprocessing to deployment in production environments. Passionate about applying cutting-edge AI technologies to solve complex business challenges, particularly in financial services, and driving data-driven decision-making.
+Tóm tắt
+Kỹ sư AI với hơn một năm kinh nghiệm chuyên sâu trong việc thiết kế, phát triển và triển khai các mô hình AI từ đầu đến cuối (end-to-end), tập trung vào xử lý văn bản, âm thanh và hình ảnh. Thành thạo Python cùng các framework AI hàng đầu như TensorFlow, PyTorch và Keras. Có kinh nghiệm vững chắc trong tiền xử lý dữ liệu, kỹ thuật trích chọn đặc trưng và đánh giá mô hình. Luôn cập nhật các tiến bộ mới nhất trong AI/ML để xây dựng các giải pháp sáng tạo, đảm bảo tính bảo mật, khả năng mở rộng và hiệu quả cho các thách thức kinh doanh phức tạp.
 
-Work Experience
-AI Programmer
+Kinh nghiệm làm việc
+Lập trình viên AI
 AIM JSC
-January 2024 - August 2024
-    Contributed to the design, development, and implementation of an end-to-end video copyright infringement detection system, leveraging advanced audio and image analysis techniques.
-    Participated in the development of an AI-powered music generation tool using Generative Adversarial Networks (GANs), focusing on model optimization.
-    Assisted in the design and evaluation of a film genre classification model, utilizing Convolutional Neural Networks (CNNs) for feature extraction and model training.
+Tháng 1/2024 - Tháng 8/2024
+*   Thiết kế, phát triển và triển khai hệ thống phát hiện vi phạm bản quyền video sử dụng phân tích âm thanh và hình ảnh, đảm bảo tính hiệu quả và ổn định.
+*   Tham gia nghiên cứu và phát triển công cụ sản xuất nhạc AI sáng tạo sử dụng mô hình GAN.
+*   Thiết kế và tối ưu hóa mô hình phân loại thể loại phim, sử dụng kỹ thuật trích xuất đặc trưng bằng CNN.
 
-AI Engineer Intern
-Tri Nam Group
-February 2023 - December 2023
-    Developed and fine-tuned a voice-based age prediction model, demonstrating strong expertise in data preprocessing and model evaluation.
-    Contributed to building and enhancing core speech processing features, including Speech-to-Text (STT), dialect detection, and multilingual conversion for over 100 languages, ensuring scalability and efficiency.
-    Integrated advanced Large Language Model (LLM) solutions from OpenAI ChatGPT and Google LaMDA to optimize AI systems and enhance natural language understanding capabilities.
+Thực tập sinh kĩ sư AI
+Tập đoàn Trí Nam
+Tháng 2/2023 - Tháng 12/2023
+*   Phát triển và đánh giá mô hình dự đoán tuổi từ dữ liệu giọng nói, đảm bảo độ chính xác và hiệu quả.
+*   Đóng góp vào việc xây dựng và cải thiện các tính năng xử lý giọng nói tiên tiến (chuyển giọng nói thành văn bản, phát hiện giọng địa phương, chuyển đổi đa ngôn ngữ cho hơn 100 ngôn ngữ), tối ưu hóa hiệu suất hệ thống.
+*   Tích hợp và tối ưu hóa giải pháp từ OpenAI ChatGPT và Google LaMDA, nâng cao hiệu quả và khả năng mở rộng của hệ thống AI.
 
-Projects
-MotoBot - Motorcycle Information Chatbot & Rider Support
-Personal Project
-August 2024 - Present
-    Developed a comprehensive chatbot providing detailed technical specifications, motorcycle comparisons, and safety advice for large-displacement motorcycles.
-    Leveraged Large Language Models (LLMs) to enhance natural language understanding and conversational capabilities.
-    Successfully integrated the chatbot onto a web platform and implemented a dynamic database for continuous, real-time information updates, demonstrating experience in production deployment and data management.
+Dự án
+MotoBot - Chatbot thông tin xe moto và hỗ trợ người lái mới
+Dự án cá nhân
+Tháng 8/2024 - Hiện tại
+*   Phát triển chatbot chuyên cung cấp thông tin chi tiết về thông số kỹ thuật, so sánh xe và tư vấn về an toàn khi lái xe moto phân khối lớn, sử dụng mô hình ngôn ngữ lớn (LLMs) để cải thiện khả năng trả lời và giao tiếp tự nhiên.
+*   Triển khai chatbot trên nền tảng web, đồng thời xây dựng và triển khai cơ sở dữ liệu động để liên tục cập nhật thông tin mới nhất về các dòng và mẫu mã xe moto, đảm bảo tính bảo mật và khả năng mở rộng.
 
-Stock Market Anomaly Detection
-FPT University Graduation Project
-August 2023 - December 2023
-    Designed, built, and optimized an anomaly detection model for stock market trading data using Python, TensorFlow, Keras, and LSTM.
-    Achieved a high accuracy of up to 95%, showcasing strong analytical thinking and problem-solving skills in a financial context.
+Phát Hiện Bất Thường Thị Trường Chứng Khoán
+Đồ án tốt nghiệp Đại học FPT
+Tháng 8/2023 - Tháng 12/2023
+*   Xây dựng và tối ưu hóa mô hình phân tích, phát hiện bất thường trong dữ liệu giao dịch chứng khoán sử dụng Python, TensorFlow, Keras, và LSTM với độ chính xác lên tới 95%.
+*   Quản lý toàn bộ vòng đời mô hình từ thu thập dữ liệu, tiền xử lý, đào tạo, đánh giá đến triển khai.
 
-Education
-FPT University
-Major in Artificial Intelligence
+Học vấn
+Đại học FPT
+Chuyên ngành Trí tuệ Nhân tạo
 2020 - 2024
 
-Skills
-Programming Languages: Python (Proficient), C, C#, Java
-AI/ML Frameworks: TensorFlow, PyTorch, Keras, Scikit-learn
-Machine Learning Techniques: Deep Learning (RNN, LSTM, CNN, GAN), Supervised Learning, Feature Engineering, Model Evaluation, Anomaly Detection
-Natural Language Processing (NLP): Large Language Models (LLMs), Chatbot Development, Sentiment Analysis, Topic Extraction, Speech-to-Text (STT), Multilingual Processing
-Tools & Methodologies: Git, Docker, Data Preprocessing, Model Deployment, MLOps Principles, Data Visualization
-Soft Skills: Problem-solving, Analytical Thinking, Communication, Collaboration, Project Management, Research & Innovation
-Languages: English (IELTS 7.5), Vietnamese (Native)
+Kỹ năng
+*   **Ngôn ngữ lập trình:** Thành thạo Python; có kinh nghiệm với C, C#, Java.
+*   **Framework và Thư viện AI/ML:** TensorFlow, PyTorch, Keras, Scikit-learn.
+*   **Xử lý Ngôn ngữ Tự nhiên (NLP):** Mô hình ngôn ngữ lớn (LLMs), phân tích sắc thái, trích xuất chủ đề, phát triển chatbot.
+*   **Kỹ thuật Học máy:** RNN, LSTM, GAN, Học có giám sát, Trích chọn đặc trưng (Feature Engineering), Tiền xử lý dữ liệu (Data Preprocessing), Đánh giá mô hình (Model Evaluation).
+*   **Quản lý Dự án và Triển khai:** Git, Docker; Kinh nghiệm triển khai và tối ưu hóa mô hình AI trong môi trường sản xuất (Production Environment); Kỹ năng tổ chức và lập kế hoạch.
+*   **Kỹ năng Mềm:** Giải quyết vấn đề, Tư duy phân tích, Khả năng gỡ lỗi, Kỹ năng lãnh đạo và làm việc nhóm hiệu quả, Giao tiếp tốt.
+*   **Ngoại ngữ:** Thông thạo tiếng Anh (IELTS 7.5).
