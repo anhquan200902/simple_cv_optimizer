@@ -9,7 +9,7 @@ We welcome contributions to the CV Optimizer! Please follow these guidelines to 
 
 2. **Clone your fork:**
    ```bash
-   git clone https://github.com/your-username/cv_optimizer_project.git
+   git clone https://github.com/anhquan200902/simple_resume_optimizer.git
    ```
 
 3. **Create a new branch:**
