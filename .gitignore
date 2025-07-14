@@ -10,3 +10,7 @@ __pycache__/
 
 # Documents
 *.pdf
+
+# Input and output files
+job_description.txt
+optimized_cv.txt
