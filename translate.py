@@ -11,7 +11,7 @@ load_dotenv(override=True)
 # --- Google Gemini Configuration ---
 #IMPORTANT: Make sure you have a .env file with your Google API key
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-MODEL = "gemini-1.5-flash" 
+MODEL = "gemini-2.5-flash" 
 
 # --- OpenAI ChatGPT Configuration ---
 # IMPORTANT: Make sure you have a .env file with your OpenAI API key
