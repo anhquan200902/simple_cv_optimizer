@@ -1,0 +1,12 @@
+# IDEs and editors
+.idea/
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Documents
+*.pdf
