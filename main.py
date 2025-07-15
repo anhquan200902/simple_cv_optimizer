@@ -82,7 +82,16 @@ def optimize_cv(cv_content, job_description):
     try:
         response = client.models.generate_content(
             model=MODEL,
-            contents=prompt
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                system_instruction=(
+                    "You are an expert ATS (Applicant Tracking System) optimizer. "
+                "Always keep the candidate's original tone and language, but "
+                "align the content tightly with the job description. "
+                "Return only plain text, no markdown."
+                ),
+                temperature=0.2
+            )
         )
         return response.text
     except Exception as e:
