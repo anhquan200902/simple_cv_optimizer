@@ -2,7 +2,7 @@
 from dotenv import load_dotenv
 import os
 from pypdf import PdfReader
-import google.generativeai as genai
+from google import genai
 import openai
 
 # --- CONFIGURATION ---
