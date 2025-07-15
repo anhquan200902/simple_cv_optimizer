@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import os
 from pypdf import PdfReader
 from google import genai
+from google.genai import types
 import openai
 
 # --- CONFIGURATION ---
@@ -11,7 +12,7 @@ load_dotenv(override=True)
 
 # --- Google Gemini Configuration ---
 #IMPORTANT: Make sure you have a .env file with your Google API key
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
 MODEL = "gemini-2.5-flash" 
 
 # --- OpenAI ChatGPT Configuration ---
@@ -79,8 +80,10 @@ def optimize_cv(cv_content, job_description):
 
     # --- Call to Google Gemini API ---
     try:
-        model = genai.GenerativeModel(MODEL)
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model=MODEL,
+            contents=prompt
+        )
         return response.text
     except Exception as e:
         return f"An error occurred with the Google API: {e}"
